@@ -1,0 +1,167 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth !important;
+	transition: 50ms;
+}
+
+.picture {
+	max-width: 500px;
+	margin: auto;
+}
+
+body {
+	font-family: Helvetica Neue, Helvetica, Arial;
+	font-size: 16px;
+	line-height: 1.5rem;
+}
+.center {
+	text-align: center
+}
+
+.me {
+	transition: ease 1000ms;
+	width: 300px;
+	border-radius: 50%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+p {
+	display: block;
+	margin-block-start: 1rem;
+	margin-block-end: 1rem;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+
+a.one:link {
+	border: none;
+	color: rgb(255, 255, 255);
+	padding: 5px 90px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 4px;
+	cursor: pointer;
+	background-color: black;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+a.one:hover {
+	opacity: 0.7;
+}
+
+a.two:link {
+	border: none;
+	color: rgb(255, 255, 255);
+	padding: 5px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 4px;
+	cursor: pointer;
+	background-color: black;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+a.two:hover {
+	opacity: 0.7;
+}
+
+a.two:visited {
+	color: rgb(255, 255, 255);
+  }
+
+div.topnav {
+	overflow: hidden;
+	background-color: rgb(197, 197, 197);
+	padding: 10px 16px;
+}
+div.topnav h3 {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+div .topnav a {
+	float: right;
+	display: block;
+	color: #000000;
+	text-align: center;
+	text-decoration: none;
+	padding: 0px 10px;
+}
+div .topnav :hover {
+	opacity: 0.7;
+}
+.fa {
+  padding: 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 3px;
+  border-radius: 50%;
+}
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+	color: rgb(0, 0, 0);
+  }
+
+  .fa-twitter {
+	color: rgb(0, 0, 0);
+  }
+
+  .fa-facebook {
+	color: rgb(0, 0, 0);
+  }
+  .fa-linkedin {
+	color: rgb(0, 0, 0);
+  }  
+
+  .footer {
+    bottom: 100;
+	background-color: rgb(197, 197, 197);
+    color: rgb(7, 7, 7);
+    height: 10rem;
+    position: bottom;
+}
+	
+
+  img {
+	max-width: 100%
+  }
+  .image {
+	flex-basis: 30%
+  }
+  .text {
+	font-size: 20px;
+  }
+
+.left-half {
+	flex: 1;
+	background-color: #f0f0f0; /* Light gray color for the left half */
+	padding: 20px;
+}
+
+.right-half {
+	flex: 1;
+	background-color: #ffffff; /* White color for the right half */
+	padding: 20px;
+}
